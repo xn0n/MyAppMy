@@ -361,3 +361,28 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# Public-source export: local state and restricted materials
+.env*
+!.env.example
+node_modules/
+dist/
+build/
+.next/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+data/
+backups/
+uploads/
+storage/
+output/
+outputs/
+.vercel/
+.playwright-cli/
+*.db
+*.sqlite*
+*.log
+*.pem
+*.key
